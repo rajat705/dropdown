@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import './App.css';
 
-
+// Add more cities as needed
 const cities = [
   { id: 1, name: 'Kota' },
   { id: 2, name: 'Mumbai' },
@@ -16,7 +16,7 @@ const cities = [
   { id: 10, name: 'Surat' },
   { id: 11, name: 'New Delhi' },
   { id: 12, name: 'Others' },
-  // Add more cities as needed
+  
 ];
 
 const Dropdown = () => {
@@ -44,11 +44,12 @@ const Dropdown = () => {
         <div className="selectedCity">
           <h3>Selected City:</h3>
           <p>Name: {selectedCity.name}</p>
-          {/* You can display more details about the selected city */}
+          {}
         </div>
-      )}
+      )} /* You can display more details about the selected city */
 
         <p className="copyright">
+//           For copyright purpose
           © 2023 Rajat Nagar. All rights reserved.
         </p>
     </div>
