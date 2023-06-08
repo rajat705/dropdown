@@ -1,0 +1,55 @@
+.container {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%;
+}
+
+.label {
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.select {
+  padding: 8px;
+  font-size: 30px;
+  border: 1px solid #b13504e5;
+  border-radius: 1400px;
+}
+
+.selectedCity {
+  margin-top: 20px;
+}
+
+.selectedCity h3 {
+  font-size: 25px;
+  margin-bottom: 10px;
+  color: rgb(29, 28, 28);
+  display: flex;
+}
+
+.selectedCity p {
+  font-size: 25px;
+  color: rgb(29, 28, 28);
+  display: flex;
+}
+
+.back {
+  margin-top: 20%;
+  margin-right: 30%;
+  margin-left: 30%;
+  margin-bottom: 20%;
+  background-color: rgb(156, 153, 148);
+}
+
+/*following style to in CSS file for Copyright*/
+p.copyright {
+  margin-top: 20px;
+  font-size: 12px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #290215;
+  text-align: center;
+}
